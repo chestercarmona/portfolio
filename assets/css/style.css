@@ -1,0 +1,309 @@
+.carousel-item{
+	height: 45vh;
+}
+
+.carousel-indicators li {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+}
+
+.myprofilepicture{
+	height: 100%;
+	width: 100%;
+}
+
+.jumbotron{
+	
+	background: rgba(128,128,128, 0.15);
+	margin-top: 50px;
+	border-radius: 15px;
+	padding: 5px;
+}
+
+#portfolio {
+	height: 100vh;
+}
+
+#skills{
+	height: 100vh;
+}
+
+
+
+#logo-icon{
+	color: orange;
+}
+
+#logo-icon:hover{
+	color: yellow;
+}
+
+.navbar{
+	color: #01395e;
+	font-size: 1.2em;
+}
+
+.navbar-expand-lg{
+	color: #01395e;
+}
+
+.navbar-brand{
+	color: orange;
+	left: 50%;
+	transform: translateX(-50%);
+	position: relative;
+	font-size: 2em;
+
+}
+
+#brand-name{
+	color: red;
+	animation: move 5s infinite;
+}
+
+#brand-name:hover{
+	color: orange;
+	border-top: 2px solid red;
+	border-bottom: 2px solid red;
+}
+
+nav {
+	position: sticky;
+
+}
+
+#nav-link-main:hover{
+	color: orange;
+	border-bottom: 2px solid yellow;
+}
+
+
+#margin-top{
+	margin-top: 50px;
+}
+
+#home{
+	height: 100vh;
+	position: relative;
+}
+
+.content-center{
+	padding: 40px;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#portfolio{
+	height: 100vh;
+}
+
+#portfoliomargin{
+	height: 10vh;
+}
+
+.nav-link-portfolio{
+	text-align: left;
+}
+
+.nav-link-contact{
+	float: right;
+}
+
+.bg-header-portfolio{
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+
+}
+
+
+.display-2{
+	color: #0091cf;
+	font-size: 2em;
+	/*color: #01395e;*/
+	/*color: #ffaf00;*/
+}
+.display-1{
+	color: #ffaf00;
+	font-size: 4em;
+}
+
+.display-6{
+	color: #0091cf;
+	font-size: 1em;
+	/*color: #01395e;*/
+	/*color: #ffaf00;*/
+}
+.display-5{
+	color: #ffaf00;
+	font-size: 2em;
+}
+
+
+
+.home-wrapper{
+	border-top:2px solid white;
+	border-bottom:2px solid white;
+	background: transparent;
+}
+
+.home-wrapper:hover {
+	border: 2px solid transparent;
+	box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+	transition: .3s;
+}
+
+
+#main-navbar{
+	/*margin-top: 10%;*/
+	position: sticky;
+
+}
+
+.profile{
+	border-radius: 50%;
+	border: 10px solid white;
+	box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.profile:hover{
+	position: relative;
+	transition-timing-function: linear;
+	border: 5px solid grey;
+
+}
+
+.profile-name{
+	text-align: center;
+}
+
+.home-jumbotron-left{
+	background: transparent;
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+
+}
+
+
+.social-media{
+	color: gray;
+	border-bottom: 1px solid gray;
+	border-top: 1px solid gray
+	padding: 5px;
+	/*margin: 3px auto;*/
+}
+
+.social-media-icon:hover{
+	color: gray;
+	border-bottom: 1px solid white;
+	padding-right: : 5px;
+	/*margin: 3px auto;*/
+}
+
+.fa-facebook-f{
+	background: #3b5999;
+}
+
+.fa-twitter{
+	background: #55acee;
+}
+
+.fa-github{
+	background: black;
+}
+
+
+.fa-gitlab{
+	background: #c9510c;
+}
+
+.fa-youtube{
+	background: #ff0000;
+}
+
+.fa-google{
+	background: #008744;
+}
+
+.fab:hover{
+	transform: rotateY(360deg);
+}
+
+.socialMediaIcon2 .fab {
+	font-size: 40px;
+	transition: .5s;
+	height: 45px;
+	width: 45px;
+	border-radius: 50%;
+	margin: 3px;
+	/*box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);*/
+}
+
+
+.fa-code{
+	height: 100%;
+	width: 100%;
+	margin-top: 15%;
+}
+.code-icon-box{
+	height: 70px;
+	width: 70px;
+	border-radius: 50%;
+	/*background: lightgray;*/
+	/*margin-left: 20px;*/
+	box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+
+#homeheader{
+	height: 100vh;
+}
+
+.bg{
+	background: url(../images/bg.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.text-shadow-effect{
+	text-shadow: 0px 5px 10px 0px rgba(255, 255, 255, 0.5);
+}
+
+.sample-works{
+	border-radius: 5%;
+	border: 3px solid white;
+}
+
+/*Tablet*/
+@media only screen and (min-width: 401px) and (max-width: 960px){
+
+
+.display-6{
+	color: #0091cf;
+	font-size: 2em;
+	/*color: #01395e;*/
+	/*color: #ffaf00;*/
+}
+.display-5{
+	color: #ffaf00;
+	font-size: 3em;
+}
+
+
+}
+
+
+/*Mobile*/
+@media only screen and (min-width: 401px) and (max-width: 400px){
+.navbar{
+	position: absolute;
+}
+
+}
+
